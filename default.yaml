@@ -8,4 +8,4 @@ applications:
   instances: 1
   memory: 512M
   env:
-    ES_ENDPOINT: "http://10.50.5.21"
+    ES_ENDPOINT: "http://10.50.5.21:9200"
