@@ -1,1 +1,2 @@
-# distzip_deploy
+* TODOs
+* execute sh cfdeploy.sh ../callanalyzer

@@ -1,0 +1,11 @@
+---
+applications:
+- name: callanalyzer 
+  host: callanalyzer
+  buildpack: java_buildpack
+  domain: us-east.internal.yaas.io
+  path: ./build.zip
+  instances: 1
+  memory: 512M
+  env:
+    ES_ENDPOINT: "http://10.50.5.21"
